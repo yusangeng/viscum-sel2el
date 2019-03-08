@@ -1,5 +1,5 @@
 {
-  "name": "viscum-sel2el",
+  "name": "@viscum/sel2el",
   "version": "0.1.0",
   "description": "DOM element selector.",
   "main": "lib/index.js",
