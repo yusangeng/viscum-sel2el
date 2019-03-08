@@ -4,7 +4,7 @@
 
 ## 综述 | Abstract
 
-CSS选择函数.
+DOM element selector.
 
 ## 安装 | Install
 
