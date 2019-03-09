@@ -11,14 +11,14 @@
     "coverage": "nyc report --reporter=lcov",
     "es5": "rm -rf ./lib && tsc -p tsconfig.json",
     "pub": "npm publish --access=public",
-    "prepublish": "npm run test && npm run es5",
+    "prepublishOnly": "npm run test && npm run es5",
     "ci": "npm run test && npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/yusangeng/viscum-sel2el.git"
   },
-  "keywords": [],
+  "keywords": ["event", "event-emitter"],
   "author": {
     "name": "yusangeng",
     "email": "yusangeng@outlook.com"
